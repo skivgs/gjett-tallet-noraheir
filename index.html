@@ -20,7 +20,7 @@
         </article>
     </main>
 <footer>
-    Gjett et tall er lagd av <i>Incognito</i>
+    Gjett et tall er lagd av <i>Nora Heir</i>
 </footer>
     <script>
 
@@ -28,17 +28,32 @@
         var inpGjetting = document.getElementById("inpGjetting");
         var txtBeskjed = document.getElementById("txtBeskjed");
 
-        var korrektTall = 3;
+        var korrektTall = Math.floor((Math.random() * 100) + 1);
 
         // Lytter funksjon som kalles når noen har gjort en gjetning.
         function gjett(){
 
             // Henter ut tallet brukeren har gjettet og gjør om det til et tall
             var gjettetTall = Number(inpGjetting.value);
+            var svar;
+            if (gjettetTall == korrektTall){
+              svar = "Du gjettet riktig!"
+            }
+            else if (gjettetTall < korrektTall) {
+              svar = "Du gjettet for lavt!"
+            }
+            else {
+              svar = "Du gjettet for høyt!"
+            }
 
-            /* Fortsett her for å finne ut om tallet er korrekt! */
+          document.getElementById("txtBeskjed").innerHTML = svar;
         }
 
+        function korrektTall(){
+          var x
+        }
+
+        gjett
     </script>
 </body>
 </html>
