@@ -1,5 +1,8 @@
-### Gjett et tall!
+# Gjett et tall!
 Vi skal lage en web-applikasjon hvor brukeren skal gjette ett tall. Brukeren skal gjette til hen har gjettet korrekt.
+
+## Kom igang
+* Last ned boilerplate-koden i github-desktop gjennom å kopiere linken under *clone or download* oppe til høyre.
 
 ## JavaScript-begrep vi trenger
 Etter begrepet står siden det er forklart på i [JavaScript kompendiet](https://www.dropbox.com/s/vzhfge01cklau5m/JavaScript%20og%20Firebase%20oppskrifter.docx?dl=0)
@@ -9,7 +12,7 @@ Etter begrepet står siden det er forklart på i [JavaScript kompendiet](https:/
 
 ## Spesifikasjon
 * Lag en applikasjon hvor en bruker skal gjette et tall hen ikke vet hva er.
-* Brukeren skal få vite om tallet hen har gjettet er korrekt eller feil. Bruk en [if test](https://www.w3schools.com/js/js_if_else.asp)) sammen med [sammenliknings-operatorer](https://www.w3schools.com/js/js_comparisons.asp)
+* Brukeren skal få vite om tallet hen har gjettet er korrekt eller feil. Bruk en [if test](https://www.w3schools.com/js/js_if_else.asp) sammen med [sammenliknings-operatorer](https://www.w3schools.com/js/js_comparisons.asp)
 * Tallet brukeren skal gjetter skal lages [tilfeldig](https://www.w3schools.com/jsref/jsref_random.asp)
 
 ## Utvidelser
