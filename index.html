@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.css">
+    <style>
+        footer {
+            font-size: small;
+        }
+    </style>
+    <title>Gjett et tall</title>
+</head>
+<body>
+    <header><h1>Gjett et tall</h1></header>
+    <main>
+        <article>
+            <label for="inpGjetting">Gjett et tall</label>
+            <input id="inpGjetting" type="number"  min="0" max="10" onchange="gjett()">
+            <p id="txtBeskjed"></p>
+        </article>
+    </main>
+<footer>
+    Gjett et tall er lagd av <i>Incognito</i>
+</footer>
+    <script>
+
+        // Få tak på HTML-objekter
+        var inpGjetting = document.getElementById("inpGjetting");
+        var txtBeskjed = document.getElementById("txtBeskjed");
+
+        var korrektTall = 3;
+
+        // Lytter funksjon som kalles når noen har gjort en gjetning.
+        function gjett(){
+
+        }
+
+    </script>
+</body>
+</html>
